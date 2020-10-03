@@ -79,25 +79,5 @@ public class MovePlayer : MonoBehaviour
    
     }
 
-   void SetFocus(Interactables newFocus)
-    {
-        if(newFocus != focus)
-        {
-            if (focus != null)
-                focus.OnDefocused();
-            
-            
-            focus = newFocus;
- 
-        }
-        
-        newFocus.OnFocused(transform);
-    }
-    void RemoveFocus()
-    {
-        if (focus != null)
-            focus.OnDefocused();
-       
-        focus = null;
-    }
+  
 }
