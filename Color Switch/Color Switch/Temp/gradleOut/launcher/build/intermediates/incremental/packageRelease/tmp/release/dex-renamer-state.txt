@@ -1,0 +1,4 @@
+#Thu May 13 20:35:25 IST 2021
+base.0=D\:\\MyFiles\\unity\\Color Switch\\Color Switch\\Temp\\gradleOut\\launcher\\build\\intermediates\\dex\\release\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
